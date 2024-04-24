@@ -1,0 +1,10 @@
+[package]
+name = "serialize-store-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+path = "src/wasi.rs"
+name = "wasi"

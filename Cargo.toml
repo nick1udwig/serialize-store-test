@@ -1,0 +1,10 @@
+[package]
+name = "serialize-store-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+tokio = { version = "1.28", features = ["fs", "macros", "rt-multi-thread", "signal", "sync"] }
+wasmtime = "19.0.1"
+wasmtime-wasi = "19.0.1"
